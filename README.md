@@ -1,4 +1,4 @@
-Unbound-System-V-init-script
+Unbound System V init script
 ============================
 
 Init script for unbound DNS server
