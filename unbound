@@ -22,11 +22,6 @@ if [ -r /etc/default/unbound ]; then
 	. /etc/default/unbound
 fi
 
-if [ -e /etc/unbound/unbound.conf ]; then
-	UNBOUND_OPTS="$UNBOUND_OPTS -c /etc/unbound/unbound.conf"
-fi
-
-
 LOCKFILE=/var/lock/unbound
 
 lock_unbound() {
