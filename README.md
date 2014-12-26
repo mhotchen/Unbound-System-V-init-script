@@ -20,6 +20,9 @@ $ sudo service unbound status
 $ sudo service unbound stop
     [ ok ] Stopping unbound server: unbound.
 
+$ sudo service unbound status
+    [FAIL] unbound server is not running ... failed!
+
 $ sudo service unbound start
     [ ok ] Starting unbound server: unbound.
 
